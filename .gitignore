@@ -1,0 +1,11 @@
+bin/
+dist/
+*.exe
+*.test
+*.out
+vendor/
+coverage.out
+.DS_Store
+.idea/
+.vscode/
+plugin-aws
