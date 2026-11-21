@@ -1,11 +1,23 @@
-bin/
-dist/
+# Binaries
 *.exe
 *.test
 *.out
-vendor/
-coverage.out
-.DS_Store
+/dist/
+
+# Internal dev artifacts — not for public repos
+AGENTS.md
+CURRENT_STATE.md
+NEXT_SESSION.md
+ROADMAP.md
+docs/execution-log/
+docs/phase-zero/
+docs/research/
+
+# IDE
 .idea/
 .vscode/
+*.swp
+.DS_Store
+
+# Plugin binary
 plugin-aws
